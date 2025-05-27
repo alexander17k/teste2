@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alexander Adriano | Neon Gameverse</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: radial-gradient(ellipse at center, #0f0c29 0%, #302b63 50%, #000000 100%);
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      background-color: rgba(0, 0, 0, 0.4);
+      border-bottom: 2px solid #00ffcc;
+    }
+
+    .logo {
+      font-size: 3.5rem;
+      color: #00ffcc;
+      text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+    }
+
+    main {
+      padding: 4rem 1rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      color: #39ff14;
+      text-shadow: 0 0 12px #39ff14, 0 0 24px #39ff14;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-size: 1.3rem;
+      color: #ccc;
+      max-width: 750px;
+      margin: 0 auto 2rem auto;
+    }
+
+    .btn-start {
+      padding: 1rem 2.5rem;
+      font-size: 1.2rem;
+      color: #000;
+      background: #00ffcc;
+      border: none;
+      border-radius: 40px;
+      cursor: pointer;
+      box-shadow: 0 0 15px #00ffcc, 0 0 30px #00ffcc;
+      transition: 0.3s ease;
+    }
+
+    .btn-start:hover {
+      background: #39ff14;
+      box-shadow: 0 0 20px #39ff14, 0 0 40px #39ff14;
+      transform: scale(1.05);
+    }
+
+    section.features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 4rem;
+    }
+
+    .feature {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid #00ffcc;
+      border-radius: 20px;
+      padding: 2rem;
+      width: 300px;
+      box-shadow: 0 0 15px #00ffcc44;
+      transition: 0.3s ease;
+    }
+
+    .feature:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 25px #00ffccaa;
+    }
+
+    .feature h3 {
+      color: #00ffee;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      text-shadow: 0 0 10px #00ffee;
+    }
+
+    .feature p {
+      font-size: 1rem;
+      color: #ddd;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #aaa;
+      border-top: 1px solid #00ffcc33;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .feature {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">⚡ Alexander Adriano</div>
+  </header>
+
+  <main>
+    <h1>Neon Gameverse: Domine o mundo dos games com estilo</h1>
+    <p>Explore o universo gamer com tecnologia, criatividade e brilho. Aqui, você encontra o futuro dos jogos com uma estética cyberpunk vibrante e conteúdo de alto nível.</p>
+    <button class="btn-start" onclick="comecarNeon()">Começar Jornada</button>
+
+    <section class="features">
+      <div class="feature">
+        <h3>🎮 Games Incríveis</h3>
+        <p>Descubra novos títulos, análises e experiências imersivas direto do mundo neon.</p>
+      </div>
+      <div class="feature">
+        <h3>🚀 Dev e Criação</h3>
+        <p>Dicas, ferramentas e trilhas para criar jogos brilhantes com Unity, Scratch ou Godot.</p>
+      </div>
+      <div class="feature">
+        <h3>🌐 Comunidade 24/7</h3>
+        <p>Junte-se a outros gamers, desenvolvedores e criadores em um espaço iluminado por pixels e paixão.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Alexander Adriano | Neon Gameverse - Todos os direitos reservados.
+  </footer>
+
+  <script>
+    function comecarNeon() {
+      alert('🎮 Bem-vindo ao Neon Gameverse! Sua jornada gamer começa agora.');
+    }
+  </script>
+</body>
+</html>
